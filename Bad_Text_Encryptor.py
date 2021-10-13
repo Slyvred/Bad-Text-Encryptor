@@ -1,6 +1,6 @@
 import os
 
-alpha = " ',.;:/\!?@(){}[]°\"=+-_*%0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàéêëôîùç" #
+alpha = " ',.;:/\!?@(){}[]°\"=+-_*%0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàéêëôîùç" # This is what characters we can accept and return in our encrypted cipher
 def encrypt(text, key):
     for i in range(len(text)):
         cipher_text = ""
